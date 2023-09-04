@@ -2,7 +2,6 @@ import React from "react";
 import Cake from "./Cake.js";
 import CakeForm from "./CakeForm.js";
 
-
 // const originalListOfCakes = [
 // 	{
 // 		cakeName: "Victoria Sponge",
@@ -44,6 +43,8 @@ import CakeForm from "./CakeForm.js";
 // 		rating: 5
 // 	} 
 // ];
+
+// NO LONGER USING THE ABOVE AS USER CAN ADD THEIRS VIA FORM!
 
 const CakeContainer = () => {
 	const [listOfCakes, setListOfCakes] = React.useState([]);
